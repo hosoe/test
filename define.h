@@ -1,0 +1,31 @@
+parameter ADD=4'd0;
+parameter SUB=4'd1;
+parameter SB2=4'd2;//in0-in1+1
+parameter MUL=4'd3;
+parameter INC=4'd4;
+parameter DEC=4'd5;
+parameter CHK=4'd6;//in0==in1
+parameter CP1=4'd7;//in1=in1-1
+parameter JMP=4'd8;
+parameter JNZ=4'd9;
+parameter LIN=4'd10;
+parameter STR=4'd11;
+parameter LOD=4'd12;
+parameter ZRO=4'd13;//in0=0
+
+parameter BRD=4'd0;
+parameter XPS=4'd1;
+parameter YPS=4'd2;
+parameter CTR=4'd3;
+parameter TP1=4'd4;//sumQCounter
+parameter BD1=4'd5;//BRD+1
+parameter TP3=4'd6;//CrossJudge
+parameter TP4=4'd7;//CrossJudge
+parameter AL0=4'd8;//0
+parameter TP6=4'd9;//
+parameter TP7=4'd10;
+parameter END=4'd11;
+parameter SCT=4'd12;//SuccessTimes
+
+parameter DC4=4'd0;
+parameter DC6=6'd0;
